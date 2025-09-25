@@ -34,13 +34,27 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
-      <h1 className="text-3xl font-bold mb-6 text-calming-blue">
-        Mental Health Tracker
-      </h1>
-      <MoodForm addMood={addMood} />
-      <MotivationalQuote />
-      <MoodChart moods={moods} />
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-between p-4">
+      <div className="flex flex-col items-center">
+        <h1 className="text-3xl font-bold mb-6 text-calming-blue">
+          Mental Health Tracker
+        </h1>
+        <MoodForm addMood={addMood} />
+        <MotivationalQuote />
+        <MoodChart moods={moods} />
+      </div>
+      <footer className="mt-8 text-center text-gray-600">
+        <p>
+          Dibuat oleh{" "}
+          <a
+            href="https://www.linkedin.com/in/mwahyusp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-calming-blue hover:underline">
+            M Wahyu SP
+          </a>
+        </p>
+      </footer>
     </div>
   );
 };

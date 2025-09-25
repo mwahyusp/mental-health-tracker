@@ -2,6 +2,13 @@
 
 A React.js app to track daily moods (happy, sad, anxious) with a monthly chart and random motivational quotes.
 
+## Project Structure
+
+- `src/index.jsx`: Entry point for rendering the React app to the DOM.
+- `src/App.jsx`: Main component with mood tracking logic and UI.
+- `src/components/`: Contains `MoodForm.jsx`, `MoodChart.jsx`, and `MotivationalQuote.jsx`.
+- `public/index.html`: HTML template with favicon from Cloudinary.
+
 ## Features
 
 - Log daily moods via an interactive form.
