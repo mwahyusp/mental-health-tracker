@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-calming-blue: #4b9cd3;
+    --color-soothing-green: #48bb78;
+    --color-warm-yellow: #ecc94b;
+  }
+}
